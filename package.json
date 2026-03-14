@@ -1,0 +1,18 @@
+{
+  "name": "djecommerce-mern",
+  "version": "1.0.0",
+  "description": "Django e-commerce converted to MERN + PostgreSQL — AWS deployment",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "build":       "cd frontend && npm run build",
+    "start":       "node backend/server.js",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend":"cd frontend && npm run dev",
+    "seed":        "cd backend && npm run seed",
+    "postinstall": "cd backend && npm install"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm":  ">=9.0.0"
+  }
+}

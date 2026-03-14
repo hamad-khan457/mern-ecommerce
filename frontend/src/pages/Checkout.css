@@ -1,0 +1,8 @@
+.checkout-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem}
+@media(max-width:768px){.checkout-grid{grid-template-columns:1fr}}
+.checkout-section{padding:1.5rem}
+.checkout-section h3{font-size:1rem;font-weight:700;margin-bottom:.25rem}
+.payment-options{display:flex;gap:1rem;flex-wrap:wrap}
+.payment-opt{display:flex;align-items:center;gap:.5rem;padding:.75rem 1.25rem;border:1.5px solid var(--border);border-radius:var(--radius);cursor:pointer;font-size:.9rem;font-weight:500;transition:all .15s}
+.payment-opt input{width:auto}
+.payment-opt.selected{border-color:var(--primary);background:#eff6ff;color:var(--primary)}

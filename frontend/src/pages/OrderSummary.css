@@ -1,0 +1,20 @@
+.summary-layout{display:grid;grid-template-columns:1fr 300px;gap:1.5rem;align-items:start}
+@media(max-width:768px){.summary-layout{grid-template-columns:1fr}}
+.summary-row-item{display:flex;align-items:center;gap:1rem;padding:1rem;margin-bottom:.75rem}
+.summary-row-item img{width:72px;height:72px;object-fit:cover;border-radius:8px;flex-shrink:0}
+.sri-info{flex:1;min-width:0}
+.sri-title{font-weight:600;font-size:.9rem;color:var(--text);display:block}.sri-title:hover{color:var(--primary)}
+.sri-saving{font-size:.75rem;color:var(--success);font-weight:500}
+.sri-qty{display:flex;align-items:center;gap:0;border:1.5px solid var(--border);border-radius:8px;overflow:hidden}
+.qty-btn{padding:.3rem .65rem;border:none;background:var(--bg);font-size:1rem;font-weight:700;transition:background .1s}
+.qty-btn:hover{background:var(--border)}
+.sri-qty span{padding:.3rem .65rem;border-left:1.5px solid var(--border);border-right:1.5px solid var(--border);font-weight:600;font-size:.9rem}
+.sri-price{font-weight:700;font-size:1rem;min-width:64px;text-align:right}
+.summary-aside{padding:1.5rem}
+.summary-aside h3{font-weight:700;font-size:1.1rem;margin-bottom:.25rem}
+.aside-line{display:flex;justify-content:space-between;font-size:.875rem;color:var(--muted);margin-bottom:.5rem}
+.coupon-line{color:var(--success);font-weight:500}
+.aside-total{display:flex;justify-content:space-between;font-size:1rem;margin-bottom:1.25rem}
+.coupon-form{display:flex;gap:.5rem;margin-top:1rem}
+.coupon-form input{flex:1;font-size:.82rem;padding:.45rem .75rem}
+.coupon-msg{font-size:.82rem;margin-top:.4rem}.coupon-msg.ok{color:var(--success)}.coupon-msg.err{color:var(--danger)}

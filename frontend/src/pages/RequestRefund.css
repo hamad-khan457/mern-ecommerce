@@ -1,0 +1,6 @@
+.refund-form-wrap{padding:2rem;max-width:600px}
+.refund-intro{color:var(--muted);font-size:.9rem;line-height:1.7}
+.refund-success{padding:3rem 2rem;max-width:480px;margin:4rem auto;text-align:center}
+.refund-icon{font-size:3rem;display:block;margin-bottom:1rem}
+.refund-success h2{font-size:1.4rem;font-weight:700;margin-bottom:.75rem}
+.refund-success p{color:var(--muted);line-height:1.7}

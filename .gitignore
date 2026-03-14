@@ -1,0 +1,36 @@
+ # Dependencies
+node_modules/
+
+# Environment files (contains passwords!)
+.env
+backend/.env
+frontend/.env
+
+# Key files
+*.pem
+*.key
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Build output
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+```
+
+6. Save the file **(Ctrl + S)**
+
+---
+
+### ⚠️ Make sure it's in the ROOT folder:
+```
+mern-ecommerce/
+├── .gitignore        ✅ here
+├── backend/
+└── frontend/

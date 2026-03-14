@@ -1,0 +1,14 @@
+.products-layout{display:grid;grid-template-columns:200px 1fr;gap:1.5rem;align-items:start}
+@media(max-width:768px){.products-layout{grid-template-columns:1fr}}
+.sidebar{padding:1.25rem;position:sticky;top:80px}
+.sidebar h3{font-size:1rem;font-weight:700}
+.filter-label{font-size:.78rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;margin:1rem 0 .5rem}
+.filter-btn{display:block;width:100%;text-align:left;padding:.45rem .75rem;border:none;background:transparent;border-radius:8px;font-size:.875rem;color:var(--muted);cursor:pointer;transition:all .15s;margin-bottom:2px}
+.filter-btn:hover{background:#f1f5f9;color:var(--text)}
+.filter-btn.active{background:#eff6ff;color:var(--primary);font-weight:600}
+.products-topbar{display:flex;align-items:center;gap:1rem;margin-bottom:1.25rem}
+.search-input{flex:1;max-width:360px}
+.result-count{font-size:.85rem;color:var(--muted);white-space:nowrap}
+.pagination{display:flex;gap:6px;justify-content:center;margin-top:2rem;flex-wrap:wrap}
+.page-btn{padding:.4rem .8rem;border:1.5px solid var(--border);border-radius:6px;background:var(--card);font-size:.85rem;font-weight:500;transition:all .15s}
+.page-btn:hover,.page-btn.active{background:var(--primary);border-color:var(--primary);color:#fff}

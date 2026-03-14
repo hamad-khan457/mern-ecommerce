@@ -1,0 +1,9 @@
+.navbar{background:#fff;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100;box-shadow:var(--shadow)}
+.navbar-inner{display:flex;align-items:center;justify-content:space-between;height:62px}
+.brand{font-size:1.25rem;font-weight:700;color:var(--primary)}
+.nav-links{display:flex;align-items:center;gap:1.25rem}
+.nav-links a{font-size:.9rem;font-weight:500;color:var(--muted);transition:color .15s}
+.nav-links a:hover{color:var(--primary)}
+.cart-link{position:relative}
+.cart-badge{background:var(--danger);color:#fff;font-size:.68rem;font-weight:700;position:absolute;top:-8px;right:-10px;padding:1px 5px;border-radius:999px}
+.nav-user{font-size:.875rem;font-weight:600;color:var(--text)}
